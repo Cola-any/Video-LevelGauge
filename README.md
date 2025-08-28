@@ -40,7 +40,7 @@ Besides, how positional bias manifests in video-text interleaved contexts is sti
 </p>
 
 ## 👀 Video-LevelGauge Overview
-Video-LevelGauge is explicitly designed to investigate contextual positional bias in video understanding. We introduce a standardized probe and customized context design paradigm, where carefully designed probe segments are inserted at varying positions within customized contextual contents. By comparing model responses to identical probes at different insertion points, we assess positional bias in video comprehension.
+<img src="./asset/spirit-level.svg" width="25" height="20" /> Video-LevelGauge is explicitly designed to investigate contextual positional bias in video understanding. We introduce a standardized probe and customized context design paradigm, where carefully designed probe segments are inserted at varying positions within customized contextual contents. By comparing model responses to identical probes at different insertion points, we assess positional bias in video comprehension.
 It supports flexible control over context length, probe position, and context composition to evaluate positional biases in various real-world scenarios, such as **multi-video understanding, long video comprehension, and multi-modal interleaved inputs**.
 Video-LevelGauge encompasses six categories of structured video understanding tasks (e.g., action reasoning), along with an open-ended descriptive task. It includes 438 manually collected multi-type videos, 1,177 multiple-choice question answering (MCQA) items, and 120 open-ended instructed descriptive problems paired with annotations.
 <p align="center">
