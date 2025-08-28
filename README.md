@@ -13,8 +13,8 @@
 ## 🔥 Updates
 - Release the metric code. [Coming soon]
 - Release the evaluation code. [Coming soon]
-- **8/28/2025**: The data for the Video-LevelGauge has been released (🤗 [Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge))
-- **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650))
+- **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
+- **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
 
 ## 🏠 Introduction
 🔔 Large Video Language Models (LVLMs) suffer from positional bias, characterized by uneven comprehension of identical content presented at different contextual positions.
@@ -33,12 +33,12 @@ Video-LevelGauge is explicitly designed to investigate contextual positional bia
 It supports flexible control over context length, probe position, and context composition to evaluate positional biases in various real-world scenarios, such as **multi-video understanding, long video comprehension and multi-modal interleaved inputs**.
 Video-LevelGauge encompasses six categories of structured video understanding tasks (e.g., action reasoning), along with an open-ended descriptive task. It includes 438 manually collected multi-type videos, 1,177 multiple-choice question answering (MCQA) items, and 120 open-ended instructed descriptive problems paired with annotations.
 <p align="center">
-    <img src="./asset/overview.png" width="95%" height="95%">
+    <img src="./asset/overview.png" width="99%" height="99%">
 </p>
 
 ## 🔍 Dataset
 
-#### 📜 License
+### 📜 License
 Video-LevelGauge is under the CC-BY-NC-SA-4.0 license. 
 It is derived from several previously published datasets ([VideoMME](https://huggingface.co/datasets/lmms-lab/Video-MME), [MLVU](https://huggingface.co/datasets/MLVU/MVLU), [VisDrone](https://github.com/VisDrone/VisDrone-Dataset), [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/), and [Ego4D](https://github.com/facebookresearch/Ego4d)). Please note that the original datasets may have their own licenses. Users must comply with the licenses of the original datasets when using this derived dataset.
 
@@ -50,7 +50,7 @@ If there is any infringement in our dataset, please email overwhelmed@mail.ustc.
 🌟 The annotation file and the raw videos are readily accessible via this [HF Link](https://huggingface.co/datasets/Cola-any/Video-LevelGauge) 🤗. Note that this dataset is for research purposes only and you must strictly comply with the above License.
 
 ## 🔮 Evaluation PipLine
-Coming soon
+Coming soon.
 
 ## 📈 Experimental Results
 📍**Performance of state-of-the-art LVLMs on Video-LevelGauge.**
@@ -96,7 +96,7 @@ Thinking mode can alleviate the positional bias issue to a certain extent.
 </p>
 
 ## Citation
-If you find our work helpful for your research, please consider citing our work.  
+If you find our work helpful for your research, please consider giving a star 🌟 and citation.  
 ```
 @article{xia2025videolevelgaugeinvestigatingcontextualpositional,
   title   = {Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models},
