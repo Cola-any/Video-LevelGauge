@@ -1,4 +1,4 @@
-<h1 align="center">Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
+<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="30" /> Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
 
 <p align="center">
 
@@ -49,7 +49,7 @@ Video-LevelGauge encompasses six categories of structured video understanding ta
 
 ## 🔍 Dataset
 
-### 📜 License
+### ✒️ License
 Video-LevelGauge is under the CC-BY-NC-SA-4.0 license. 
 It is derived from several previously published datasets ([VideoMME](https://huggingface.co/datasets/lmms-lab/Video-MME), [MLVU](https://huggingface.co/datasets/MLVU/MVLU), [VisDrone](https://github.com/VisDrone/VisDrone-Dataset), [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/), and [Ego4D](https://github.com/facebookresearch/Ego4d)). Please note that the original datasets may have their own licenses. Users must comply with the licenses of the original datasets when using this derived dataset.
 
