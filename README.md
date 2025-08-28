@@ -21,7 +21,7 @@
 Gemini 2.5 Pro exhibits the least **positional bias** in the long video understanding task, followed by GLM-4.5V, GPT-4o-latest, Doubao-Seed-1.6, and other models. Higher scores correspond to a more pronounced bias.
 
 <p align="center">
-    <img src="./asset/leaderboard.png" width="99%" height="90%">
+    <img src="./asset/leaderboard.png" width="95%" height="95%">
 </p>
 
 ## 🏠 Introduction
