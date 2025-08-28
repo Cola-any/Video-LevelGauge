@@ -25,7 +25,7 @@ Gemini 2.5 Pro exhibits the least positional bias, followed by GLM-4.5V, GPT-4o-
 ## 🏠 Introduction
 🔔 Large Video Language Models (LVLMs) suffer from positional bias, characterized by uneven comprehension of identical content presented at different contextual positions.
 <p align="center">
-    <img src="./asset/pos_bias.png" width="55%" height="95%">
+    <img src="./asset/pos_bias.png" width="85%" height="85%">
 </p>
 🌟 The serial position effect in psychology suggests that humans tend to better recall content presented at the beginning and end of a sequence. Similar behaviors have been observed in language models. To date, how various types of LVLMs, such as those incorporating memory components or trained with long-context, perform on positional biases remains under-explored.
 Moreover, how positional bias manifests in video-text interleaved contexts is still an open question. In particular, models claiming to excel at long video understanding should be validated for their ability to maintain consistent and effective perception across the entire sequence, with minimal positional bias. 
