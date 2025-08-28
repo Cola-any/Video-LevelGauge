@@ -100,7 +100,7 @@ Thinking mode can alleviate the positional bias issue to a certain extent.
 </p>
 
 ## Citation
-If you find our work helpful for your research, please consider giving a star 🌟 and citation.  
+If you find our work helpful for your research, please consider giving a star 🌟 and citation 💡.  
 ```
 @article{xia2025videolevelgaugeinvestigatingcontextualpositional,
   title   = {Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models},
