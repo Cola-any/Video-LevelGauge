@@ -23,7 +23,7 @@ Gemini 2.5 Pro exhibits the least **positional bias** in the long video understa
 </p>
 
 ## 🏠 Introduction
-🔔 Large Video Language Models (LVLMs) suffer from positional bias, characterized by uneven comprehension of identical content presented at different contextual positions.
+🔔 Large Video Language Models (LVLMs) suffer from the **positional bias** problem: they understand the same content *inconsistently* when it appears in different places of long videos.
 <p align="center">
     <img src="./asset/pos_bias.png" width="85%" height="85%">
 </p>
