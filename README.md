@@ -1,5 +1,5 @@
-<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="40" /> Video-LevelGauge: Investigating Contextual Positional Bias </h1>
-<h1 align="center">in Large Video Language Models</h1>
+<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="40" /> Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
+
 <p align="center">
 
 [![arXiv](http://img.shields.io/badge/cs.CV-arXiv%3A2508.19650-B31B1B.svg)](https://arxiv.org/abs/2508.19650)
