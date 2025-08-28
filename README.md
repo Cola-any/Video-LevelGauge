@@ -16,6 +16,12 @@
 - **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
 - **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
 
+## 🏆 Leaderboard
+Gemini 2.5 Pro exhibits the least positional bias, followed by GLM-4.5V, GPT-4o-latest, Doubao-Seed-1.6, and other models.
+<p align="center">
+    <img src="./asset/leaderboard.png" width="55%" height="95%">
+</p>
+
 ## 🏠 Introduction
 🔔 Large Video Language Models (LVLMs) suffer from positional bias, characterized by uneven comprehension of identical content presented at different contextual positions.
 <p align="center">
@@ -53,13 +59,6 @@ If there is any infringement in our dataset, please email overwhelmed@mail.ustc.
 Coming soon.
 
 ## 📈 Experimental Results
-📍**Performance of state-of-the-art LVLMs on Video-LevelGauge.**
-
-Gemini 2.5 Pro exhibits the least positional bias, followed by GLM-4.5V, GPT-4o-latest, Doubao-Seed-1.6, and other models.
-<p align="center">
-    <img src="./asset/leaderboard.png" width="55%" height="95%">
-</p>
-
 📍**Evaluation results of Stat-of-the-art LVLMs.**
 
 We conduct a comprehensive investigation of 27 LVLMs using Video-LevelGauge, including 6 commercial models, i.e., Gemini 2.5 Pro and QVQ-Max; 21 open-source LVLMs covering unified models like InternVL3, long video models like Video-XL2, specific optimized models like VideoRefer, multi-modal reasoning models like GLM-4.5V, and two-stage methods like LLoVi.
