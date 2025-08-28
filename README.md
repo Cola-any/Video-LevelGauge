@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="30" /> Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
+<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="40" /> Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
 
 <p align="center">
 
