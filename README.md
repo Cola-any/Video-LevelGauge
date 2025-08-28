@@ -17,7 +17,9 @@
 - **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
 
 ## 🏆 Leaderboard
+
 Gemini 2.5 Pro exhibits the least **positional bias** in the long video understanding task, followed by GLM-4.5V, GPT-4o-latest, Doubao-Seed-1.6, and other models. Higher scores correspond to a more pronounced bias.
+
 <p align="center">
     <img src="./asset/leaderboard.png" width="99%" height="90%">
 </p>
@@ -25,18 +27,21 @@ Gemini 2.5 Pro exhibits the least **positional bias** in the long video understa
 ## 🏠 Introduction
 🔔 Large Video Language Models (LVLMs) suffer from the **positional bias** problem: they understand the same content *inconsistently* when it appears in different places of long videos.
 <p align="center">
-    <img src="./asset/pos_bias.png" width="85%" height="85%">
+    <img src="./asset/pos_bias.png" width="95%" height="95%">
 </p>
-🌟 The serial position effect in psychology suggests that humans tend to better recall content presented at the beginning and end of a sequence. Similar behaviors have been observed in language models. To date, how various types of LVLMs, such as those incorporating memory components or trained with long-context, perform on positional biases remains under-explored.
-Moreover, how positional bias manifests in video-text interleaved contexts is still an open question. In particular, models claiming to excel at long video understanding should be validated for their ability to maintain consistent and effective perception across the entire sequence, with minimal positional bias. 
-For example, Qwen2.5-VL-7B exhibits reduced positional bias on the OCR task compared to its bias on other tasks:
+
+🌟 The serial **position effect** in psychology suggests that humans tend to better recall content presented at the beginning and end of a sequence. Similar behaviors have been observed in language models. 
+
+To date, how various types of LVLMs, such as those incorporating memory components or trained with long-context, perform on *positional biases* remains under-explored.
+Besides, how positional bias manifests in video-text interleaved contexts is still an open question. In particular, models claiming to excel at long video understanding should be validated for their ability to maintain consistent and effective perception across the entire sequence, with minimal positional bias. For example, Qwen2.5-VL-7B exhibits reduced positional bias on the OCR task compared to its bias on other tasks:
+
 <p align="center">
     <img src="./asset/pos_bais_plot_7b_20_norm.png" width="100%" height="100%">
 </p>
 
 ## 👀 Video-LevelGauge Overview
 Video-LevelGauge is explicitly designed to investigate contextual positional bias in video understanding. We introduce a standardized probe and customized context design paradigm, where carefully designed probe segments are inserted at varying positions within customized contextual contents. By comparing model responses to identical probes at different insertion points, we assess positional bias in video comprehension.
-It supports flexible control over context length, probe position, and context composition to evaluate positional biases in various real-world scenarios, such as **multi-video understanding, long video comprehension and multi-modal interleaved inputs**.
+It supports flexible control over context length, probe position, and context composition to evaluate positional biases in various real-world scenarios, such as **multi-video understanding, long video comprehension, and multi-modal interleaved inputs**.
 Video-LevelGauge encompasses six categories of structured video understanding tasks (e.g., action reasoning), along with an open-ended descriptive task. It includes 438 manually collected multi-type videos, 1,177 multiple-choice question answering (MCQA) items, and 120 open-ended instructed descriptive problems paired with annotations.
 <p align="center">
     <img src="./asset/overview.png" width="99%" height="99%">
