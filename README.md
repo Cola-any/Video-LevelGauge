@@ -3,7 +3,7 @@
 <p align="center">
 
 [![arXiv](http://img.shields.io/badge/cs.CV-arXiv%3A2508.19650-B31B1B.svg)](https://arxiv.org/abs/2508.19650)
-[![Dataset](https://img.shields.io/badge/ Dataset-Video--LevelGauge-yellow)](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)
+[![Dataset](https://img.shields.io/badge/🤗Dataset-Video--LevelGauge-yellow)](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)
 [![Github](https://img.shields.io/badge/Github-Investigating_Contextual_Positional_Bias_in_Large_Video_Language_Models-blue)](https://github.com/Cola-any/Video-LevelGauge)
 
 </p>
