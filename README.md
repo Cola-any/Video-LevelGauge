@@ -1,13 +1,13 @@
 <h1 align="center">Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
 
 <p align="center">
-    <a href="https://arxiv.org/abs/2508.19650">
-            <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2508.19650-B31B1B.svg">
+    <a href="https://arxiv.org/abs/2508.19650" style="text-decoration:none;">
+        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2508.19650-B31B1B.svg">
     </a>
-    <a href="https://huggingface.co/datasets/Cola-any/Video-LevelGauge">
+    <a href="https://huggingface.co/datasets/Cola-any/Video-LevelGauge" style="text-decoration:none;">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-Video--LevelGauge-yellow">
     </a>
-    <a href="https://github.com/Cola-any/Video-LevelGauge">
+    <a href="https://github.com/Cola-any/Video-LevelGauge" style="text-decoration:none;">
         <img alt="Build" src="https://img.shields.io/badge/Github-Investigating Contextual Positional Bias in Large Video Language Models-blue">
     </a>
 </p>
@@ -30,7 +30,6 @@ For example, Qwen2.5-VL-7B exhibits reduced positional bias on the OCR task comp
 <p align="center">
     <img src="./asset/pos_bais_plot_7b_20_norm.png" width="100%" height="100%">
 </p>
-
 
 ## 👀 Video-LevelGauge Overview
 Video-LevelGauge is explicitly designed to investigate contextual positional bias in video understanding. We introduce a standardized probe and customized context design paradigm, where carefully designed probe segments are inserted at varying positions within customized contextual contents. By comparing model responses to identical probes at different insertion points, we assess positional bias in video comprehension.
