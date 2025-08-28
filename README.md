@@ -19,7 +19,7 @@
 ## 🏆 Leaderboard
 Gemini 2.5 Pro exhibits the least positional bias, followed by GLM-4.5V, GPT-4o-latest, Doubao-Seed-1.6, and other models.
 <p align="center">
-    <img src="./asset/leaderboard.png" width="55%" height="95%">
+    <img src="./asset/leaderboard.png" width="75%" height="95%">
 </p>
 
 ## 🏠 Introduction
