@@ -1,16 +1,11 @@
 <h1 align="center">Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
 
 <p align="center">
-    <a href="https://arxiv.org/abs/2508.19650" style="text-decoration:none;">
-        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2508.19650-B31B1B.svg">
-    </a>
-    <a href="https://huggingface.co/datasets/Cola-any/Video-LevelGauge" style="text-decoration:none;">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-Video--LevelGauge-yellow">
-    </a>
-    <a href="https://github.com/Cola-any/Video-LevelGauge" style="text-decoration:none;">
-        <img alt="Build" src="https://img.shields.io/badge/Github-Investigating Contextual Positional Bias in Large Video Language Models-blue">
-    </a>
+  [![arXiv](http://img.shields.io/badge/cs.CV-arXiv%3A2508.19650-B31B1B.svg)](https://arxiv.org/abs/2508.19650)
+  [![Dataset](https://img.shields.io/badge/🤗 Dataset-Video--LevelGauge-yellow)](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)
+  [![Github](https://img.shields.io/badge/Github-Investigating%20Contextual%20Positional%20Bias%20in%20Large%20Video%20Language%20Models-blue)](https://github.com/Cola-any/Video-LevelGauge)
 </p>
+
 
 ---
 ## 🔥 Updates
