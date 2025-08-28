@@ -17,9 +17,9 @@
 - **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
 
 ## 🏆 Leaderboard
-Gemini 2.5 Pro exhibits the least positional bias, followed by GLM-4.5V, GPT-4o-latest, Doubao-Seed-1.6, and other models.
+Gemini 2.5 Pro exhibits the least positional bias, followed by GLM-4.5V, GPT-4o-latest, Doubao-Seed-1.6, and other models. Higher scores correspond to a more pronounced bias.
 <p align="center">
-    <img src="./asset/leaderboard.png" width="75%" height="95%">
+    <img src="./asset/leaderboard.png" width="99%" height="90%">
 </p>
 
 ## 🏠 Introduction
