@@ -61,6 +61,51 @@ If there is any infringement in our dataset, please email overwhelmed@mail.ustc.
 🌟 The annotation file and the raw videos are readily accessible via this [HF Link](https://huggingface.co/datasets/Cola-any/Video-LevelGauge) 🤗. Note that this dataset is for research purposes only and you must strictly comply with the above License.
 
 ## 🔮 Evaluation PipLine
+
+#### ✨ Clone and Prepare Dataset
+First, please clone this repository and download our dataset into `./LevelGauge`, organizing it as follows:
+```
+Video-LevelGauge
+├── asset
+├── evaluation
+├── LevelGauge
+│   ├── json
+│   └── videos
+├── metric
+├── preprocess
+```
+#### ✨ Running Inference
+We take three models as examples to demonstrate how to use our benchmark for positional bias evaluation:
+- **InternVL3** – inference with `transformers`.
+- **MiMo-VL** – inference with `vLLM API`, using **video input**.  
+   (If you plan to call the commercial API for testing, this is a good reference.)
+- **GLM-4.5V** – inference with `vLLM API`, using **multi-image input**.
+
+For InternVL3, please follow the [official project](https://github.com/OpenGVLab/InternVL) to set up the environment. Run inference as follow:
+```
+bash ./evaluation/transformer/eval_intervl3.sh
+```
+The accuracy at each position will be computed and saved to  `./output/internvl_acc`.
+
+For MiMo-VL, please first follow the [official project](https://github.com/XiaomiMiMo/MiMo-VL/tree/main) to deploy the model with vLLM. Run inference as follow:
+```
+bash ./evaluation/vllm/eval_mimovl.sh
+```
+The accuracy at each position will be computed and saved to `./output/mimovl_acc`.
+
+For GLM-4.5V, please first follow the [official project](https://github.com/zai-org/GLM-V/) to deploy the model with vLLM. Run inference as follow:
+```
+bash ./evaluation/vllm/eval_glm45v.sh
+```
+The accuracy at each position will be computed and saved to `./output/glm45v_acc`.
+
+📌 In addition, We also provide preprocessing scripts, including:
+*frame extraction* and *concatenating probe and background videos into a single video*. See the `./preprocess` folder. 
+You can choose the input method based on your model. Concatenating probe and background videos into a single video is recommended as this is applicable to all models.
+
+📌 For more precise investigation, in our paper, we evaluate models on the full set of our 1,177 samples, which requires tens of thousands of inferences across 10 positions. We provide a subset of 300 samples for quick testing 🚀.
+
+#### ✨ Metric Calculation
 Coming soon.
 
 ## 📈 Experimental Results
