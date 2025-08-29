@@ -12,7 +12,7 @@
 ---
 ## 🔥 Updates
 - Release the metric code. [Coming soon]
-- **8/29/2025**: The evaluation code is released 🎈.
+- **8/29/2025**: The evaluation code is released [🎈 Evaluation PipLine](https://github.com/Cola-any/Video-LevelGauge#-evaluation-pipline).
 - **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
 - **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
 
@@ -62,7 +62,7 @@ If there is any infringement in our dataset, please email overwhelmed@mail.ustc.
 
 ## 🔮 Evaluation PipLine
 
-#### ✨ Clone and Prepare Dataset
+### ✨ Clone and Prepare Dataset
 First, please clone this repository and download [our dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge/tree/main/LevelGauge) into `./LevelGauge`, organizing it as follows:
 ```
 Video-LevelGauge
@@ -74,7 +74,7 @@ Video-LevelGauge
 ├── metric
 ├── preprocess
 ```
-#### ✨ Running Inference
+### ✨ Running Inference
 We take three models as examples to demonstrate how to use our benchmark for positional bias evaluation:
 - **InternVL3** – inference with `transformers`.
 - **MiMo-VL** – inference with `vLLM API`, using **video input**.  
@@ -105,7 +105,7 @@ You can choose the input method based on your model. Concatenating probe and bac
 
 📌 For precise investigation, in our paper, we evaluate models on the full set of our 1,177 samples, which requires tens of thousands of inferences across 10 positions. We provide a subset of [300 samples](https://huggingface.co/datasets/Cola-any/Video-LevelGauge/blob/main/LevelGauge/json/Pos_MCQA_300_final.json) for quick testing 🚀.
 
-#### ✨ Metric Calculation
+### ✨ Metric Calculation
 Coming soon.
 
 ## 📈 Experimental Results
