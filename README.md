@@ -12,7 +12,7 @@
 ---
 ## 🔥 Updates
 - Release the metric code. [Coming soon]
-- Release the evaluation code. [Coming soon]
+- **8/29/2025**: The evaluation code is released 🎈.
 - **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
 - **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
 
@@ -63,7 +63,7 @@ If there is any infringement in our dataset, please email overwhelmed@mail.ustc.
 ## 🔮 Evaluation PipLine
 
 #### ✨ Clone and Prepare Dataset
-First, please clone this repository and download our dataset into `./LevelGauge`, organizing it as follows:
+First, please clone this repository and download [our dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge/tree/main/LevelGauge) into `./LevelGauge`, organizing it as follows:
 ```
 Video-LevelGauge
 ├── asset
@@ -99,11 +99,11 @@ bash ./evaluation/vllm/eval_glm45v.sh
 ```
 The accuracy at each position will be computed and saved to `./output/glm45v_acc`.
 
-📌 In addition, We also provide preprocessing scripts, including:
+📌 In addition, we provide preprocessing scripts, including:
 *frame extraction* and *concatenating probe and background videos into a single video*. See the `./preprocess` folder. 
-You can choose the input method based on your model. Concatenating probe and background videos into a single video is recommended as this is applicable to all models.
+You can choose the input method based on your model. Concatenating probe and background videos into a single video is recommended as it is applicable to all models.
 
-📌 For more precise investigation, in our paper, we evaluate models on the full set of our 1,177 samples, which requires tens of thousands of inferences across 10 positions. We provide a subset of 300 samples for quick testing 🚀.
+📌 For precise investigation, in our paper, we evaluate models on the full set of our 1,177 samples, which requires tens of thousands of inferences across 10 positions. We provide a subset of [300 samples](https://huggingface.co/datasets/Cola-any/Video-LevelGauge/blob/main/LevelGauge/json/Pos_MCQA_300_final.json) for quick testing 🚀.
 
 #### ✨ Metric Calculation
 Coming soon.
