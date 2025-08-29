@@ -12,7 +12,7 @@
 ---
 ## 🔥 Updates
 - Release the metric code. [Coming soon]
-- **8/29/2025**: The evaluation code is released (🎈 [Evaluation PipLine](https://github.com/Cola-any/Video-LevelGauge#-evaluation-pipline)).
+- **8/29/2025**: The evaluation code is released (🎈[Evaluation PipLine](https://github.com/Cola-any/Video-LevelGauge#-evaluation-pipline)).
 - **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
 - **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
 
