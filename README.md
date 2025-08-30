@@ -11,7 +11,7 @@
 
 ---
 ## 🔥 Updates
-- Release the metric code. [Coming soon]
+- **8/30/2025**: Metric code has been released (✨[Metric Calculation]()).
 - **8/29/2025**: The evaluation code is released (🎈[Evaluation PipLine](https://github.com/Cola-any/Video-LevelGauge#-evaluation-pipline)).
 - **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
 - **8/27/2025**: We have release the paper (📖[arXiv Paper](http://arxiv.org/abs/2508.19650)).
@@ -72,6 +72,7 @@ Video-LevelGauge
 │   ├── json
 │   └── videos
 ├── metric
+├── output
 ├── preprocess
 ```
 ### ✨ Running Inference
@@ -85,19 +86,19 @@ For InternVL3, please follow the [official project](https://github.com/OpenGVLab
 ```
 bash ./evaluation/transformer/eval_intervl3.sh
 ```
-The accuracy at each position will be computed and saved to  `./output/internvl_acc`.
+The accuracy at each position will be computed and saved to  `acc_dir: ./output/internvl_acc`.
 
 For MiMo-VL, please first follow the [official project](https://github.com/XiaomiMiMo/MiMo-VL/tree/main) to deploy the model with vLLM. Run inference as follow:
 ```
 bash ./evaluation/vllm/eval_mimovl.sh
 ```
-The accuracy at each position will be computed and saved to `./output/mimovl_acc`.
+The accuracy at each position will be computed and saved to `acc_dir: ./output/mimovl_acc`.
 
 For GLM-4.5V, please first follow the [official project](https://github.com/zai-org/GLM-V/) to deploy the model with vLLM. Run inference as follow:
 ```
 bash ./evaluation/vllm/eval_glm45v.sh
 ```
-The accuracy at each position will be computed and saved to `./output/glm45v_acc`.
+The accuracy at each position will be computed and saved to `acc_dir: ./output/glm45v_acc`.
 
 📌 In addition, we provide preprocessing scripts, including:
 *frame extraction* and *concatenating probe and background videos into a single video*. See the `./preprocess` folder. 
@@ -106,7 +107,11 @@ You can choose the input method based on your model. Concatenating probe and bac
 📌 For precise investigation, in our paper, we evaluate models on the full set of our 1,177 samples, which requires tens of thousands of inferences across 10 positions. We provide a subset of [300 samples](https://huggingface.co/datasets/Cola-any/Video-LevelGauge/blob/main/LevelGauge/json/Pos_MCQA_300_final.json) for quick testing 🚀.
 
 ### ✨ Metric Calculation
-Coming soon.
+Once positional accuracies are saved to `acc_dir`, you can compute all metrics in one command 😄, including *Pran*, *Pvar*, *Pmean*, *MR*, etc. We use the provided files in `./output/example_acc` as an example:
+```
+python ./metric/metric.py --acc_dir ./output/example_acc
+```
+Finally, we provide a script for visualizing positional bias. See [bias_plot.py]() for details.
 
 ## 📈 Experimental Results
 📍**Evaluation results of Stat-of-the-art LVLMs.**

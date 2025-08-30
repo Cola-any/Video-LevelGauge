@@ -1,0 +1,34 @@
+{
+    "Spatial Relationship": {
+        "yes_count": 51,
+        "no_count": 51,
+        "accuracy": 0.5
+    },
+    "Optical Character Recognition": {
+        "yes_count": 131,
+        "no_count": 54,
+        "accuracy": 0.7081081081081081
+    },
+    "Object Recognition/Reasoning": {
+        "yes_count": 133,
+        "no_count": 82,
+        "accuracy": 0.6186046511627907
+    },
+    "Action Recognition/Reasoning": {
+        "yes_count": 97,
+        "no_count": 92,
+        "accuracy": 0.5132275132275133
+    },
+    "Attribute Perception": {
+        "yes_count": 201,
+        "no_count": 171,
+        "accuracy": 0.5403225806451613
+    },
+    "Count Problem": {
+        "yes_count": 62,
+        "no_count": 52,
+        "accuracy": 0.543859649122807
+    },
+    "Total examples": 1177,
+    "Average accuracy": 0.5706870837110632
+}

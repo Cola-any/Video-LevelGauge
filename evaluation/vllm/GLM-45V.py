@@ -2,7 +2,6 @@ import argparse
 import os
 import json
 from tqdm import tqdm
-import math
 from openai import OpenAI
 import json
 
