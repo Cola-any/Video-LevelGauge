@@ -11,7 +11,6 @@
 
 ---
 ## 🔥 Updates
-- MCQAs constructed on natural long videos for investigating positional bias. [Coming soon]
 - **8/30/2025**: Metric code has been released (✨[Metric Calculation](https://github.com/Cola-any/Video-LevelGauge#-metric-calculation)).
 - **8/29/2025**: The evaluation code is released (🎈[Evaluation PipLine](https://github.com/Cola-any/Video-LevelGauge#-evaluation-pipline)).
 - **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
