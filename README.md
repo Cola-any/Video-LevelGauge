@@ -81,7 +81,7 @@ Video-LevelGauge
 ├── preprocess
 ```
 ### ✨ Running Inference
-We take three models as examples to demonstrate how to use our benchmark for positional bias evaluation:
+We take four models as examples to demonstrate how to use our benchmark for positional bias evaluation:
 - **InternVL3** – inference with `transformers`.
 - **Qwen3-VL** – inference with `transformers`.
 - **MiMo-VL** – inference with `vLLM API`, using **video input**.  
