@@ -83,23 +83,30 @@ Video-LevelGauge
 ### ✨ Running Inference
 We take three models as examples to demonstrate how to use our benchmark for positional bias evaluation:
 - **InternVL3** – inference with `transformers`.
+- **Qwen3-VL** – inference with `transformers`.
 - **MiMo-VL** – inference with `vLLM API`, using **video input**.  
    (If you plan to call the commercial API for testing, this is a good reference.)
 - **GLM-4.5V** – inference with `vLLM API`, using **multi-image input**.
 
-For InternVL3, please follow the [official project](https://github.com/OpenGVLab/InternVL) to set up the environment. Run inference as follow:
+**For InternVL3**, please follow the [official project](https://github.com/OpenGVLab/InternVL) to set up the environment. Run inference as follow:
 ```
 bash ./evaluation/transformer/eval_intervl3.sh
 ```
 The accuracy at each position will be computed and saved to  `acc_dir: ./output/internvl_acc`.
 
-For MiMo-VL, please first follow the [official project](https://github.com/XiaomiMiMo/MiMo-VL/tree/main) to deploy the model with vLLM. Run inference as follow:
+**For Qwen3-VL**, please follow the [official project](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) to set up the environment. Run multi-GPU inference as follow:
+```
+bash ./evaluation/transformer/eval_qwen3vl.sh
+```
+The accuracy at each position will be computed and saved to  `acc_dir: ./output/qwen3vl_acc`.
+
+**For MiMo-VL**, please first follow the [official project](https://github.com/XiaomiMiMo/MiMo-VL/tree/main) to deploy the model with vLLM. Run inference as follow:
 ```
 bash ./evaluation/vllm/eval_mimovl.sh
 ```
 The accuracy at each position will be computed and saved to `acc_dir: ./output/mimovl_acc`.
 
-For GLM-4.5V, please first follow the [official project](https://github.com/zai-org/GLM-V/) to deploy the model with vLLM. Run inference as follow:
+**For GLM-4.5V**, please first follow the [official project](https://github.com/zai-org/GLM-V/) to deploy the model with vLLM. Run inference as follow:
 ```
 bash ./evaluation/vllm/eval_glm45v.sh
 ```
