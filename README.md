@@ -8,9 +8,11 @@
 
 </p>
 
+🔑🔑🔑 Models should be able to comprehend any part of the context to answer the questions, since the relevant content may appear anywhere in the sequence.
 
 ---
 ## 🔥 Updates
+- **1/27/2026**: Our paper has been accepted to ICLR 2026 (🎉[Paper Link](https://openreview.net/forum?id=0V0bQi24YC)).
 - **8/30/2025**: Metric code has been released (✨[Metric Calculation](https://github.com/Cola-any/Video-LevelGauge#-metric-calculation)).
 - **8/29/2025**: The evaluation code is released (🎈[Evaluation PipLine](https://github.com/Cola-any/Video-LevelGauge#-evaluation-pipline)).
 - **8/28/2025**: The data for the Video-LevelGauge has been released (🤗[Dataset](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)).
@@ -44,7 +46,10 @@ Besides, how positional bias manifests in video-text interleaved contexts is sti
 It supports flexible control over context length, probe position, and context composition to evaluate positional biases in various real-world scenarios, such as **multi-video understanding, long video comprehension, and multi-modal interleaved inputs**.
 Video-LevelGauge encompasses six categories of structured video understanding tasks (e.g., action reasoning), along with an open-ended descriptive task. It includes 438 manually collected multi-type videos, 1,177 multiple-choice question answering (MCQA) items, and 120 open-ended instructed descriptive problems paired with annotations.
 <p align="center">
-    <img src="./asset/overview.png" width="99%" height="99%">
+    <img src="./asset/overview1.png" width="99%" height="99%">
+</p>
+<p align="center">
+    <img src="./asset/overview2.png" width="66%" height="66%">
 </p>
 
 ## 🔍 Dataset
