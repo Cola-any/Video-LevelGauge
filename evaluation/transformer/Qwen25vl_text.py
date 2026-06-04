@@ -192,7 +192,7 @@ def run_inference(args):
     ans_file = open(
         os.path.join(args.output_dir, f"{args.output_name}.json"), "w")
 
-    text_context = json.load(open("/root/xiahou/Qwen25_VL/PosBench/background/text_bk_len1400.json", "r"))
+    text_context = json.load(open("./background/text_bk_len1400.json", "r"))
 
     # Iterate over each sample in the ground truth file
     for index, sample in enumerate(tqdm(gt_qa_pairs)):
