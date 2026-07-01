@@ -1,16 +1,20 @@
-<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="40" /> Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models</h1>
+<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="40" /> Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models (ICLR 2026) </h1>
 
-<p align="center">
+<div align="center">
 
-[![arXiv](http://img.shields.io/badge/cs.CV-arXiv%3A2508.19650-B31B1B.svg)](https://arxiv.org/abs/2508.19650)
-[![Dataset](https://img.shields.io/badge/🤗Dataset-Video--LevelGauge-yellow)](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)
-[![Github](https://img.shields.io/badge/Github-Investigating_Contextual_Positional_Bias_in_Large_Video_Language_Models-blue)](https://github.com/Cola-any/Video-LevelGauge)
+[![arXiv](http://img.shields.io/badge/arXiv-2508.19650-B31B1B.svg)](https://arxiv.org/abs/2508.19650)
+[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)
+[![Github](https://img.shields.io/badge/Github-Project--Page-blue)](https://github.com/Cola-any/Video-LevelGauge)
 
-</p>
+**Hou Xia**<sup>1</sup> · **Zheren Fu**<sup>1</sup> · **Fangcan Ling**<sup>1</sup> · **Jiajun Li**<sup>2</sup> · **Yi Tu**<sup>2</sup> · **Zhendong Mao**<sup>1,*</sup> · **Yongdong Zhang**<sup>1</sup>
 
-🔑🔑🔑 Models should be able to comprehend any part of the context to answer the questions, since the relevant content may appear anywhere in the sequence.
+<sup>1</sup> University of Science and Technology of China, Hefei, China  
+<sup>2</sup> HUAWEI, Shanghai, China  
 
----
+
+</div>
+
+
 ## 🔥 Updates
 - **1/27/2026**: Our paper has been accepted to ICLR 2026 (🎉[Paper Link](https://openreview.net/forum?id=0V0bQi24YC)).
 - **8/30/2025**: Metric code has been released (✨[Metric Calculation](https://github.com/Cola-any/Video-LevelGauge#-metric-calculation)).
