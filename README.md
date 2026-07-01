@@ -1,6 +1,6 @@
-<h1 align="center"><img src="./asset/spirit-level.svg" width="50" height="40" /> Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models (ICLR 2026) </h1>
-
 <div align="center">
+
+<h1>  Video-LevelGauge: Investigating Contextual Positional Bias in Large Video Language Models (ICLR 2026) </h1>
 
 [![arXiv](http://img.shields.io/badge/arXiv-2508.19650-B31B1B.svg)](https://arxiv.org/abs/2508.19650)
 [![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Cola-any/Video-LevelGauge)
